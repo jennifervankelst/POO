@@ -38,7 +38,6 @@ class voiture {
     }
 
         public function nom() {
-            $nom = "Audi";
             echo "Ma voiture est une ".$this->nom;
             echo "</br>";
         }
@@ -47,13 +46,13 @@ class voiture {
             // function couleur(){
             //     $couleur ="champagne";
             // }
-            $modele = "A4";
+            
             echo "Mon Audi est une ".$this->modele . " " . "de couleur" . " " .$this->couleur;
             echo "</br>";
         }
 
         public function kilometre(){ 
-            $kilometre =350000;
+            
             echo "Elle a ".$this->kilometre . " " . "kilometre :" . " ";
 
             if($this->kilometre > 200000) {
@@ -70,7 +69,7 @@ class voiture {
         }
         
         public function poid() {
-            $poid =1800;
+          
             echo "Elle pèse". " " .$this->poid . " " . " Kg, donc c'est une voiture ";
             if($this->poid > 3500) {
                 echo "utilitaire";
